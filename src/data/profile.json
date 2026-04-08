@@ -96,6 +96,12 @@
     "title": "Time zone",
     "zone": "America/Edmonton"
   },
+  "now": {
+    "title": "Now",
+    "helpLabel": "what's that ?",
+    "helpUrl": "https://sive.rs/nowff",
+    "status": "Currently working fulltime"
+  },
   "sections": {
     "schoolAssignment": {
       "title": "DMIT-2008 Theory 2",
