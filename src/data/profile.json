@@ -45,14 +45,13 @@
         "screenReaderLabel": "Instagram Profile",
         "icon": "ri:instagram-fill",
         "url": "https://dribbble.com/Ladvace_Jace"
-      }, {
-        "supportLink": {
-          "url" : "https://playsnake.org/",
-          "imageSrc": "https://cdn-icons-png.flaticon.com/512/3292/3292221.png",
-          "imageAlt": "Play snake, because why not."
-        }
       }
     ],
+    "supportLink": {
+      "url" : "https://playsnake.org/",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/3292/3292221.png",
+      "imageAlt": "Play snake, because why not."
+    },
     "image": {
       "src": "/hi.png",
       "alt": "bitmoji of Kayden"
