@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Gianmarco Cavallo - Freelance front-end Developer",
-    "description": "I'm a developer based in Italy, passionate about user experience and specializing in engaging animations and micro-interactions. My primary tools of choice include: JavaScript, React, Solid.js, Astro, Svelte, and Node.js.",
+    "title": "Kayden Mayhew - Web Designer and Front-End Developer",
+    "description": "Im a enthusiastic Web Designer from Saskatchewan, wanting to make pretty and dynamic sites for the internet. I enjoy taking the old and making it something new. I am skilled in Figma, Illustrator, HTML, CSS, JavaScript, and PHP.",
     "footer": {
       "year": "2026",
       "prefix": "Built on",
@@ -11,97 +11,85 @@
     }
   },
   "seo": {
-    "personName": "Gianmarco",
-    "jobTitle": "Freelance Frontend Developer",
+    "personName": "Kayden",
+    "jobTitle": "Web Designer and Front-End Developer",
     "worksFor": "Self-Employed",
-    "location": "Italy",
-    "countryCode": "IT",
-    "nationality": "Italy",
-    "publisherName": "Gianmarco",
+    "location": "Saskatchewan",
+    "countryCode": "SK",
+    "nationality": "Canada",
+    "publisherName": "Kayden",
     "sameAs": [
-      "https://www.linkedin.com/in/gianmarco-cavallo/",
-      "https://github.com/Ladvace"
+      "https://www.linkedin.com/in/kayden-mayhew/",
+      "https://github.com/ImBatman0115"
     ]
   },
   "intro": {
     "welcomeLabel": "welcome",
-    "name": "Gianmarco Cavallo",
-    "summary": "a software developer with strong focus on the user experience, animations and micro interactions",
+    "name": "Kayden Mayhew",
+    "summary": "A web designer trying to make a prettier internet",
     "socialButtons": [
       {
         "ariaLabel": "github profile",
         "screenReaderLabel": "GitHub Profile",
         "icon": "ri:github-fill",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/ImBatman0115"
       },
       {
         "ariaLabel": "linkedin profile",
         "screenReaderLabel": "Linkedin Profile",
         "icon": "ri:linkedin-box-fill",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+        "url": "https://www.linkedin.com/in/kayden-mayhew/"
       },
       {
-        "ariaLabel": "dribble profile",
-        "screenReaderLabel": "Dribble Profile",
-        "icon": "ri:dribbble-fill",
+        "ariaLabel": "instagram profile",
+        "screenReaderLabel": "Instagram Profile",
+        "icon": "ri:instagram-fill",
         "url": "https://dribbble.com/Ladvace_Jace"
       }
     ],
-    "supportLink": {
-      "url": "https://ko-fi.com/M4M71O34X",
-      "imageSrc": "https://storage.ko-fi.com/cdn/kofi6.png?v=6",
-      "imageAlt": "Buy Me a Coffee at ko-fi.com"
-    },
     "image": {
-      "src": "/me.webp",
-      "alt": "memoji of gianmarco"
+      "src": "/hi.png",
+      "alt": "bitmoji of Kayden"
     }
   },
   "about": {
     "title": "About me",
-    "intro": "Hi, I'm Gianmarco, a front-end software developer from Italy.",
+    "intro": "Hi, I'm Kayden a web deisgner and developer from Saskatchewan",
     "toolsIntro": "My primary tools of choice includes:",
     "tools": [
-      "JavaScript",
-      "React",
-      "Solidjs",
-      "Astro",
-      "Svelte",
-      "Nodejs"
+      "Figma",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "PHP"
     ],
-    "passion": "Beyond coding, I'm passionate about design, illustration, animation and 3D modelling and traveling. An unusual hobby of mine is collecting vintage passports, they're interesting pieces of history to me.",
-    "approach": "While I have some preferred tools, I always choose the best one for the job, even if it's not on my usual list. My goal is to find the right solution for each project."
+    "passion": "Beyond website development, I like video games, movies, reading, and being active outside, usually bring my beagle, Odin with me. My biggest fixation is NANANANANA BATMAN! I think he is really cool and collect all sorts of merchandise of him.",
+    "approach": "I try to get things done my way, but if that doesn't work I reach out to other methods. In the end I want a end product I and my client are proud of."
   },
   "contacts": {
     "title": "Let's start working together!",
     "contactDetailsTitle": "Contact Details",
-    "email": "contact@gianmarcocavallo.com",
-    "location": "Italy",
+    "email": "kaydenmayhew@gmail.com",
+    "location": "Current Location: Edmonton, AB",
     "socialsTitle": "Socials",
     "socialLinks": [
       {
         "label": "Linkedin",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+        "url": "https://www.linkedin.com/in/kayden-mayhew/"
       },
       {
         "label": "Github",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/ImBatman0115"
       },
       {
         "label": "Discord",
-        "url": "https://discordapp.com/users/163300027618295808"
+        "url": "https://discordapp.com/users/758144140994412565"
       }
     ]
   },
   "timeZone": {
     "title": "Time zone",
     "zone": "America/Edmonton"
-  },
-  "now": {
-    "title": "Now",
-    "helpLabel": "what's that ?",
-    "helpUrl": "https://sive.rs/nowff",
-    "status": "Currently working fulltime"
   },
   "sections": {
     "schoolAssignment": {
