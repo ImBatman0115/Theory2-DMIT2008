@@ -5,10 +5,10 @@ function toTitleCase(value = "") {
     });
 }
 
-	export function getWeatherlocationFromProfile(profile) {
-	const  customlocation = profile?.weather?.location?.trim();
-        if (customlocation) {
-            return customlocation;
+	export function getWeatherLocationFromProfile(profile) {
+	const  customLocation = profile?.weather?.location?.trim();
+        if (customLocation) {
+            return customLocation;
         }
 
 	const timezone = profile?.timeZone?.zone;
@@ -19,17 +19,17 @@ function toTitleCase(value = "") {
             }
         }
 
-const  contactlocation = profile?.contacts?.location?.trim();
-        return contactlocation	||	"Edmonton";
+const  contactLocation = profile?.contacts?.location?.trim();
+        return contactLocation	||	"Edmonton";
     }
 
     export async function getWeatherForProfile(profile, apiKey) {
-const  location = getWeatherlocationFromProfile(profile);
+const  location = getWeatherLocationFromProfile(profile);
 
         if (!apiKey) {
             return {
                 location,
-                error: "Add	your weather API key in	local  environment	settings  to  show  live weather.",
+                error: "Add your weather API key in local environment settings to show live weather.",
             };
         }
 
@@ -42,28 +42,28 @@ const  location = getWeatherlocationFromProfile(profile);
  
 	const  response = await fetch(weatherUrl.toString());
             if (!response.ok) {
-                throw new Error('OpenWeather request  failed with ${response.status}');
+                throw new Error(`OpenWeather request failed with ${response.status}`);
             }
 
 const data = await response.json();
-const  current = data?.weather?.[0]	|| { }; 
-const locationlabel = [data?.name, data?.sys?.country]
+const current = data?.weather?.[0] || {}; 
+const locationLabel = [data?.name, data?.sys?.country]
                 .filter(Boolean)
                 .join(", ");
 
 
             return {
-                location: locationlabel	|| location,
+                location: locationLabel	|| location,
                 temperatureC: data?.main?.temp ?? null,
                 description: toTitleCase(current?.description || ""),
                     iconUrl: current?.icon
-                        ? 'https://openweathermap.org/img/wn/${current.icon}@2x.png'
+                        ? `https://openweathermap.org/img/wn/${current.icon}@2x.png`
 		: null,
 		};
     }	catch {
         return {
             location,
-            error: "Unable to	load  current  weather  right  now.",
+            error: "Unable to load current weather right now.",
         };
     }
 }

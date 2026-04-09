@@ -5,7 +5,7 @@ import {
     getWeatherLocationFromProfile,
 } from "./weather";
 
-describe("getweatherLocationFromProfile", () => {
+describe("getWeatherLocationFromProfile", () => {
     it("prefers weather.location when provided", () => {
         const profile = {
             weather: { location: " Edmonton "},
@@ -16,13 +16,13 @@ describe("getweatherLocationFromProfile", () => {
         expect(getWeatherLocationFromProfile(profile)).toBe("Edmonton");
     });
 
-    it("uses city parsed from timeZone.zone when custome location is missing", () => {
+    it("uses city parsed from timeZone.zone when custom location is missing", () => {
         const profile = {
             timeZone: {zone: "America/Edmonton"},
             contacts: {location: "Edmonton"},
         };
 
-        expect(getWeatherLocationFromProfile(profile)),toBe("Edmonton");
+        expect(getWeatherLocationFromProfile(profile)).toBe("Edmonton");
     });
 
     it("falls back to contacts.location when timezone data is missing", () => {
@@ -45,8 +45,7 @@ describe("getWeatherForProfile", () => {
 
         expect(result).toEqual({
             location: "Edmonton",
-            error:
-            "Add your weather API key in local environment settings to show live weather.",
+            error: "Add your weather API key in local environment settings to show live weather.",
         });
     });
 
