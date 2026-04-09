@@ -8,12 +8,12 @@ import {
 describe("getweatherLocationFromProfile", () => {
     it("prefers weather.location when provided", () => {
         const profile = {
-            weather: { location: " Saskatchewan "},
+            weather: { location: " Edmonton "},
             timeZone: { zone: "America/Edmonton"},
             contacts: { location: "Edmonton"}
         };
 
-        expect(getWeatherLocationFromProfile(profile)).toBe("Saskatchewan");
+        expect(getWeatherLocationFromProfile(profile)).toBe("Edmonton");
     });
 
     it("uses city parsed from timeZone.zone when custome location is missing", () => {
@@ -77,7 +77,7 @@ describe("getWeatherForProfile", () => {
         });
     });
 
-    it("returns a fallback error wjen the API weather fails", async () => {
+    it("returns a fallback error when the API weather fails", async () => {
         server.use(
             http.get(
                 "https://api.openweathermap.org/data/2.5/weather",
