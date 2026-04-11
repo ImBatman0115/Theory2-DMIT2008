@@ -1,8 +1,8 @@
 # Theory 2
 
-> Student Name: **YOUR_NAME**
+> Student Name: **Kayden Mayhew**
 
-![Website Screenshot](./docs/images/screenshot.png)
+![Website Screenshot](./docs/images/screenshot-theory2.png)
 
 In this assignment, you will demonstrate your ability to
 
